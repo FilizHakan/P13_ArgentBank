@@ -1,6 +1,8 @@
 <img src='./public/img/argentBankLogo.png' width="250" />
 
-# Projet 13 - Argent Bank/OpenClassrooms
+![ArgentBank](https://raw.githubusercontent.com/FilizHakan/P13_ArgentBank/argent-bank/public/hero.png)
+
+# Projet 13 - Argent Bank
 
 ---
 
