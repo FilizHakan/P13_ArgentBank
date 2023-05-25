@@ -1,7 +1,5 @@
 # Projet 13 - Argent Bank
 
-<img src='.argent-bank/public/img/argentBankLogo.png' width="250" />
-
 ---
 
 ##### Author - Filiz Hakan (based on Thierry Friedrich repository)
