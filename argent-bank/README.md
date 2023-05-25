@@ -1,4 +1,6 @@
-# Projet 13 - <img src='./public/img/argentBankLogo.png' width="250" />
+# Projet 13 - Argent Bank - new app in the banking insdustry
+
+<img src='./public/img/argentBankLogo.png' width="250" />
 
 ---
 
