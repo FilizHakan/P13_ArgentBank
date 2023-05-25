@@ -21,7 +21,7 @@ Argent Bank is a new bank that wants to break into the sector.
 - Framework: React
 - Data-flow architecture: Redux
 
-## Dependencies:
+## Dependencies
 
 - React (version 18.2.0)
 - React-dom (version 18.2.0)
@@ -75,7 +75,7 @@ The application will be rendered at URL `http://localhost:3001`
 
 When the application starts, click on sign-in to connect
 
-##### For the test, only two users are available:
+##### For testing purposes, only two users are available :
 
 ```
 

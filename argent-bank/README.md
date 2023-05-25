@@ -21,7 +21,7 @@ Argent Bank is a new bank that wants to break into the sector.
 - Framework: React
 - Data-flow architecture: Redux
 
-## Dependencies:
+## Dependencies
 
 - React (version 18.2.0)
 - React-dom (version 18.2.0)
@@ -37,7 +37,7 @@ Argent Bank is a new bank that wants to break into the sector.
 
 ### 1 - Get the Back-End
 
-1. Download or clone the back-end's repository: [Back-end](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
+1. Download or clone the back-end's repository: [Argent-Bank-Back](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
 2. Follow all the instructions on the backend repository.
 
@@ -47,7 +47,7 @@ Argent Bank is a new bank that wants to break into the sector.
 
 1 - Open new terminal on VsCode.
 
-2 - Clone this reposity:
+2 - Clone this reposity :
 
 ```
 
@@ -55,7 +55,7 @@ git clone [my repository](https://github.com/FilizHakan/P13_ArgentBank)
 
 ```
 
-3 - Install node modules and dependencies:
+3 - Install node modules and dependencies :
 
 ```
 
@@ -63,7 +63,7 @@ npm install
 
 ```
 
-4 - Start the application:
+4 - Start the application :
 
 ```
 
@@ -75,7 +75,7 @@ The application will be rendered at URL `http://localhost:3001`
 
 When the application starts, click on sign-in to connect
 
-##### For the test, only two users are available:
+##### For testing purposes, only two users are available :
 
 ```
 
