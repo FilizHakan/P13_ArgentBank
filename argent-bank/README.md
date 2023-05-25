@@ -1,7 +1,5 @@
 <img src='./public/img/argentBankLogo.png' width="250" />
 
-![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/public/hero.png)
-
 # Projet 13 - Argent Bank
 
 ---
@@ -10,7 +8,9 @@
 
 ---
 
-Argent Bank is a new bank that wants to break into the sector.
+Argent Bank is a new bank that wants to create its own app to face the competitive market of the bankking sector.
+
+![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/public/hero.png)
 
 ## This project is responsive. You can use this app on desktop, tablet or mobile.
 
