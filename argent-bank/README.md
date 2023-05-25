@@ -21,8 +21,6 @@ Argent Bank is a new bank that wants to break into the sector.
 - Framework: React
 - Data-flow architecture: Redux
 
-```
-
 ## Dependencies:
 
 - React (version 18.2.0)
