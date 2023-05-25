@@ -1,14 +1,12 @@
-<img src='./public/img/argentBankLogo.png' width="250" />
-
-# Projet 13 - Argent Bank
+# Projet 13 - <img src='./public/img/argentBankLogo.png' width="250" />
 
 ---
 
-##### Project created by Filiz Hakan (based on Thierry Friedrich work with OpenClassrooms)
+##### Author - Filiz Hakan (based on Thierry Friedrich repository)
 
 ---
 
-Argent Bank is a new bank that wants to create its own app to face the competitive market of the bankking sector.
+Argent Bank is a new bank that wants to create its own app to face the competitive market of the banking industry.
 
 ![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/public/hero.png)
 
