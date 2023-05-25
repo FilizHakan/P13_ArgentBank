@@ -1,6 +1,6 @@
 <img src='./public/img/argentBankLogo.png' width="250" />
 
-![ArgentBank](https://raw.githubusercontent.com/FilizHakan/P13_ArgentBank/argent-bank/public/hero.png)
+![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/public/hero.png)
 
 # Projet 13 - Argent Bank
 
@@ -16,7 +16,7 @@ Argent Bank is a new bank that wants to break into the sector.
 
 ## Prerequisites
 
-- [NodeJS (version 9.6.6)]
+- [NodeJS (version 18.12.0)]
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
 - Langage: Javascript
