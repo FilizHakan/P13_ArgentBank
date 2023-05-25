@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<img src='./public/img/argentBankLogo.png' width="250" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projet 13 - Argent Bank/OpenClassrooms
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##### Project created by Filiz Hakan (based on Thierry Friedrich work with OpenClassrooms)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Argent Bank is a new bank that wants to break into the sector.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## This project is responsive. You can use this app on desktop, tablet or mobile.
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [NodeJS (version 9.6.6)]
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-### `npm run build`
+- Langage: Javascript
+- Framework: React
+- Data-flow architecture: Redux
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React (version 18.2.0)
+- React-dom (version 18.2.0)
+- React-redux (version 8.0.5)
+- React-router-dom (version 6.11.2)
+- react-toastify: (version 9.1.3)
+- toastify (version 2.0.1)
+- @reduxjs/toolkit (version 1.9.5)
 
-### `npm run eject`
+## How to install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Create a main directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1 - Get the Back-End
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Download or clone the back-end's repository: [Back-end](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Follow all the instructions on the backend repository.
 
-## Learn More
+<hr/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2 - Get the Front-End
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1 - Open new terminal on VsCode.
 
-### Code Splitting
+2 - Clone this reposity:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+git clone [my repository](https://github.com/FilizHakan/P13_ArgentBank)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+3 - Install node modules and dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+4 - Start the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+The application will be rendered at URL `http://localhost:3001`
+
+When the application starts, click on sign-in to connect
+
+##### For the test, only two users are available:
+
+```
+
+name: Tony Stark
+password: password123
+
+name: Steve Rogers
+password: password456
+
+```
+
+<hr/>
+```
