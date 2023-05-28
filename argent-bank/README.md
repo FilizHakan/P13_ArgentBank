@@ -1,6 +1,6 @@
-# Projet 13 - Argent Bank
+<img src="../../assets/argentBankLogo.png" width="250" />
 
-<img src='./public/img/argentBankLogo.png' width="250" />
+# Projet 13 - Argent Bank
 
 ---
 
