@@ -340,8 +340,8 @@ body {
   }
 }
 
-/************** UPDATE-PROFIL ***********/
-.updateProfil {
+/*** PROFILE-UPDATE ***/
+.profileUpdate {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,20 +356,20 @@ body {
   margin-bottom: 33px;
 }
 
-.container-updateProfil {
+.formContainer {
   display: flex;
   justify-content: space-evenly;
   width: 100%; 
   height: 110px;
 }
 
-.profil {
+.changeNameForm {
   display: flex;
   flex-direction: column;
   width: 460px;
 }
 
-.container-form-profile {
+.NamesContainer {
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
@@ -420,7 +420,7 @@ body {
   font-size: 1.2rem;
 }
 
-.button-profilUpdate {
+.button-updateProfile {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -428,8 +428,8 @@ body {
   margin: 0 auto;
 }
 
-.btn-submit-update,
-.btn-cancel-update {
+.btn-save,
+.btn-cancel {
   display: flex;
   align-items: center;
   justify-content: center;

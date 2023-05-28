@@ -58,35 +58,60 @@ export default function ProfileUpdate ()
                 Edit Name
             </button>
             {formUpdate === true ? (
-            <form className="profil" onSubmit={onSubmit}>
-                <p>
-                <label htmlFor="firstName">FirstName</label>
-                <input 
-                    type="text" 
-                    id="firstName" 
-                    name="firstName" 
-                    required 
-                    placeholder={userData.data.firstName} 
-                    value={updateName.firstName} 
-                    onChange={onChange} 
-                />
+            <div className="formContainer">
+                
+                <form className="changeNameForm" onSubmit={onSubmit}>
+                    
+                    <div className="NamesContainer">
+                        <div className="firstName">
+                            <label htmlFor="firstName">
+                                <input 
+                                    type="text" 
+                                    autoComplete="off"
+                                    className="input-firstName" 
+                                    name="firstName" 
+                                    placeholder={userData.data.firstName} 
+                                    value={updateName.firstName} 
+                                    onChange={onChange} 
+                                />
+                            </label>
+                        </div>
+                    
 
-                <label htmlFor="lastName">LastName</label>
-                <input 
-                    type="text" 
-                    id="lastName" 
-                    name="lastName" 
-                    required 
-                    placeholder={userData.data.lastName} 
-                    value={updateName.lastName} 
-                    onChange={onChange} 
-                />
-                </p>
-                <button type="submit">Save</button>
-                <button onClick={HideForm} type="button">
-                    Cancel
-                </button>
-            </form>
+                        <div className="lastName">
+                            <label htmlFor="lastName">
+                                <input 
+                                    type="text" 
+                                    autoComplete="off"
+                                    className="input-lastName" 
+                                    name="lastName" 
+                                    placeholder={userData.data.lastName} 
+                                    value={updateName.lastName} 
+                                    onChange={onChange} 
+                                />
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div className="button-updateProfile">
+                        <button 
+                            type="submit"
+                            className="btn-save"
+                        >
+                            Save
+                        </button>
+                        <button 
+                            className="btn-cancel"
+                            onClick={HideForm} 
+                            type="button"
+                        >
+                            Cancel
+                        </button>
+                    </div>
+
+                </form>
+            </div>
             ) : (
             ' '
             )};
