@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from 'react-redux'
 import updateProfile from "../../services/UpdateProfile";
 import { profileDataSelector } from "../../features/selector";
+import isLogged from "../../features/isLogged";
 
 /**
  * @description Profile update component
@@ -67,6 +68,7 @@ export default function ProfileUpdate ()
                             <label htmlFor="firstName">
                                 <input 
                                     type="text" 
+                                    required
                                     autoComplete="off"
                                     className="input-firstName" 
                                     name="firstName" 
@@ -82,6 +84,7 @@ export default function ProfileUpdate ()
                             <label htmlFor="lastName">
                                 <input 
                                     type="text" 
+                                    required
                                     autoComplete="off"
                                     className="input-lastName" 
                                     name="lastName" 

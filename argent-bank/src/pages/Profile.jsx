@@ -3,9 +3,9 @@ import { Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { isLoggedSelector } from "../features/selector";
 
-import DashboardBody from "../components/dashboard/DashboardBody";
+import DashboardBody from "../components/profile/DashboardBody";
 import Footer from "../components/Footer";
-import DashboardHeader from "../components/dashboard/DashboardHeader";
+import DashboardHeader from "../components/profile/DashboardHeader";
 import Loader from "./Loader";
 /**
  * @description dashboard page for each profile
@@ -18,7 +18,7 @@ export default function Dashboard ()
 
     if (isLogged === false)
     {
-        return <Navigate to="/sign-in" />
+        return <Navigate to="/login" />
     }
 
     return (

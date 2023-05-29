@@ -8,7 +8,7 @@
 
 Argent Bank is a new bank that wants to create its own app to face the competitive market of the banking industry.
 
-![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/public/hero.png)
+![ArgentBank](https://github.com/FilizHakan/P13_ArgentBank/blob/main/argent-bank/src/assets/hero.png)
 
 ## This project is responsive. You can use this app on desktop, tablet or mobile.
 
@@ -88,4 +88,3 @@ password: password456
 ```
 
 <hr/>
-```

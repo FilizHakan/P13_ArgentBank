@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-import Loader from "../../pages/Loader";
 import getToken from "../../services/GetToken";
 import { ShowError } from "../../features/selector";
 
