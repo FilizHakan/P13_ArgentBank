@@ -19,6 +19,7 @@ export default function Dashboard ()
     if (isLogged === false)
     {
         return <Navigate to="/login" />
+        
     }
 
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { ToastContainer } from "react-toastify";
 
 import getToken from "../../services/GetToken";
-import { ShowError } from "../../features/selector";
 
 /**
  * @description Form component for sign-in page
@@ -28,7 +28,8 @@ export default function Form ()
     };
 
     // Send the email and password to the API
-    const onSubmit = (el) =>{
+    const onSubmit = (el) =>
+    {
         el.preventDefault();
         getToken(formData.email, formData.password);
     };
@@ -76,7 +77,7 @@ export default function Form ()
                 <button type="submit" className="sign-in-button">
                     Sign In
                 </button>
-                <ShowError />
+                <ToastContainer />
                 </form>
             </section>
         </div>

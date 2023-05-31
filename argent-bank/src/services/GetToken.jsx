@@ -1,6 +1,8 @@
 import getProfile from "./GetProfile";
 import store from "../features/store";
 import { loginErrorAction } from "../features/loginError";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 /**
  * @description get tokens
@@ -26,6 +28,7 @@ export default async function getToken (email, password)
     .then((response) => 
     {
       const { token } = response.body;
+      toast.success("Welcome to your account ...");
       localStorage.setItem("token", token);
       getProfile();
       store.dispatch(loginErrorAction(false));
@@ -33,6 +36,11 @@ export default async function getToken (email, password)
     .catch(() => 
     {
       console.log("Error in API Token");
+      toast.error("You've made a mistake in your credentials", 
+      {
+        position: toast.POSITION.TOP_CENTER,
+        className: "toast-message-error",
+      });
       store.dispatch(loginErrorAction(true));
     })
 }

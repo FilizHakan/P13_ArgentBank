@@ -5,7 +5,7 @@ import { isLoggedAction } from "../../features/isLogged";
 import BankLogo from "../../assets/argentBankLogo.png";
 import store from "../../features/store";
 import { profileDataSelector, isLoggedSelector } from "../../features/selector";
-
+import { ToastContainer } from "react-toastify";
 /**
  * @description Dashboard Header component
  * @returns {JSX} element
@@ -31,7 +31,7 @@ export default function DashboardHeader ()
                 </Link>
                 {userData.data && isLogged ? (
                     <div className="out">
-                        <Link className="main-nav-item nav-name" to="/dashboard">
+                        <Link className="main-nav-item nav-name">
                             <i className="fa fa-user-circle"></i>
                             <span style={{ fontWeight: "700", color: "#751a8b" }}>
                                 {userData.data.firstName}
@@ -47,6 +47,7 @@ export default function DashboardHeader ()
                             <i className="fa fa-sign-out"></i>
                             Sign Out
                         </button>
+                        <ToastContainer />
                     </div>
                     ) : (
                     <div>

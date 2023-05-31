@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { useSelector } from 'react-redux'
+import { useSelector } from "react-redux";
+import { ToastContainer } from "react-toastify";
+
 import updateProfile from "../../services/UpdateProfile";
 import { profileDataSelector } from "../../features/selector";
-import isLogged from "../../features/isLogged";
 
 /**
  * @description Profile update component
@@ -104,6 +105,7 @@ export default function ProfileUpdate ()
                         >
                             Save
                         </button>
+                        <ToastContainer />
                         <button 
                             className="btn-cancel"
                             onClick={HideForm} 

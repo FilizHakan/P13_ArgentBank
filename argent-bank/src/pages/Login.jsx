@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+// import { toastContainer, toast } from "react-toastify";
 
 import Header from "../components/Header";
 import Form from "../components/login/Form";
@@ -12,7 +13,7 @@ import { isLoggedSelector } from "../features/selector";
  * @description Sign in page 
  * @returns {JSX} element
  */
-export default function LogIn () 
+export default function Login () 
 {
     // Logged in or out
     const isLogged = useSelector(isLoggedSelector);
@@ -26,7 +27,7 @@ export default function LogIn ()
         <Loader />
         <Header />
         <Form />
-        <Footer />        
+        <Footer />      
       </div>
     );
 };

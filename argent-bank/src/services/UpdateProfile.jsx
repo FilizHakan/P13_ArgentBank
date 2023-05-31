@@ -1,5 +1,6 @@
 import { profileActionData } from "../features/profileData";
 import store from "../features/store";
+import { toast } from "react-toastify";
 
 /**
  * @description Get Tokens
@@ -15,9 +16,11 @@ export default async function updateProfile (updateFirstName, updateLastName) {
   }
   return fetch("http://localhost:3001/api/v1/user/profile", requestOptions)
     .then((res) => res.json())
-    .then((response) => {
+    .then((response) => 
+    {
       console.log(response)
       const { firstName, lastName } = response.body
+      toast.success("Your update has been successfully completed.");
       store.dispatch(
         profileActionData({
           firstName: firstName,
@@ -27,5 +30,11 @@ export default async function updateProfile (updateFirstName, updateLastName) {
     })
     .catch(() => {
       console.log("Error in PutProfile")
+      toast.error("There was a issue with your update.", 
+      {
+        position: toast.POSITION.TOP_CENTER,
+        className: "toast-message-error",
+      });
+
     })
 }

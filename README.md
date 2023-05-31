@@ -14,7 +14,7 @@ Argent Bank is a new bank that wants to create its own app to face the competiti
 
 ## Prerequisites
 
-- [NodeJS (version 18.12.0)]
+- [NodeJS (version 14.20.0)]
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
 - Langage: Javascript
